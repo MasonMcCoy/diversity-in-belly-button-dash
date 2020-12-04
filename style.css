@@ -1,5 +1,6 @@
 body {
     background-color: #E8E8E8;
+    margin-bottom: 3%;
 }
 
 h1 {
@@ -24,25 +25,49 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-bottom: 40px;
+}
+
+#landing_image {
+    float: left;
+    height: 50%;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 p {
       font-size: 30px;
-      padding-right: 150px;
       text-align: center;
   }
 
-#lat {
-    float: left;
-    background-color: darkcyan;
-    color: white;
-    font-weight: bold;
-  }
+#intro {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
 
 table {
     width: 96%;
     margin: 2%;
+}
+
+.navbar {
+    background-color: white;
+    border: 0;
+}
+
+.navbar-brand {
+    background-color: darkcyan;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
 }
 
 @media screen and (max-width: 600px) {
