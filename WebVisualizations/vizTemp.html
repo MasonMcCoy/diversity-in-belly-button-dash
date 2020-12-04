@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latitude vs. Max Temperature</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+      <div class="navbar-right">
+          <ul class="nav navbar-nav">
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="vizTemp.html">Latitude vs. Max Temperature</a></li>
+                      <li><a href="vizHum.html">Latitude vs. Humidity</a></li>
+                      <li><a href="vizCloud.html">Latitude vs. Cloudiness</a></li>
+                      <li><a href="vizWind.html">Latitude vs. Wind Speed</a></li>
+                  </ul>
+              </li>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="dataTable.html">Data</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+    <h1>Latitude vs Max Temperature</h1>
+    <br>
+    <img src=".\Resources\assets\visualizations\Fig1.png">
+    <p>
+        To the surprise of no one, maximum temperature increases as you approach the equator. It should be noted, however, that there are a handful of cities with significantly
+        higher max temperatures than we might expect. There are two cities, for example, that share max temperatures with other cities that exist at or near the equator, despite
+        being located between 50 and 60 latitude. Also anomalous is the cluster of cities that have the highest max temperature of the sample, even though they range widely from
+        -20 to -40 latitude. The trend, however, is still apparent: cities experience higher maximum temperatures as they approach the equator.
+    </p>
+</body>
+</html>

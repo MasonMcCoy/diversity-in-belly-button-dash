@@ -1,0 +1,50 @@
+body {
+    background-color: #E8E8E8;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Times New Roman";
+    color: darkcyan;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times New Roman";
+    color: darkcyan;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+p {
+      font-size: 30px;
+      padding-right: 150px;
+      text-align: center;
+  }
+
+#lat {
+    float: left;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+  }
+
+table {
+    width: 96%;
+    margin: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {}
+}

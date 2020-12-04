@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plot Comparison</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+      <div class="navbar-right">
+          <ul class="nav navbar-nav">
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="vizTemp.html">Latitude vs. Max Temperature</a></li>
+                      <li><a href="vizHum.html">Latitude vs. Humidity</a></li>
+                      <li><a href="vizCloud.html">Latitude vs. Cloudiness</a></li>
+                      <li><a href="vizWind.html">Latitude vs. Wind Speed</a></li>
+                  </ul>
+              </li>
+              <li class="active"><a href="comparison.html">Comparison</a></li>
+              <li><a href="dataTable.html">Data</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+    
+    <h1>Comparison: Latitude vs. X</h1>
+        <p>Click any plot for further analysis.</p>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                
+                <h3>vs. Max Temperature</h3>
+                    <a  href="vizTemp.html"><img src=".\Resources\assets\visualizations\Fig1.png"></a>
+
+                <h3>vs. Humidity</h3>
+                    <a href="vizHum.html"><img src=".\Resources\assets\visualizations\Fig2.png"></a>
+
+            </div>
+
+            <div class="col-md-6">
+                
+                <h3>vs. Cloudiness</h3>
+                    <a href="vizCloud.html"></a><img src=".\Resources\assets\visualizations\Fig3.png"></a>
+
+                <h3>vs. Wind Speed</h3>
+                    <a href="vizWind.html"></a><img src=".\Resources\assets\visualizations\Fig4.png"></a>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
